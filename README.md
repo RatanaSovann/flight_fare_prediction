@@ -61,8 +61,8 @@ The project followed CRISP-DM.
 ├── flight_fare_prediction/   # Python package (Cookiecutter Data Science layout)
 ├── src/                      # Custom transformers and evaluation helpers
 ├── notebooks/
-│   ├── dataprep*/, data_prep*/   # Data cleaning and feature engineering
-│   └── *.ipynb                   # Model experiments (one notebook per algorithm)
+│   ├── data_prep/            # Data cleaning and feature engineering, one notebook per member
+│   └── <member>_<model>.ipynb  # Model experiments, one notebook per algorithm
 ├── models/                   # Serialised trained pipelines (.joblib / .cbm / .pkl)
 ├── reports/
 │   ├── REPORT.md             # Condensed project report (start here)
@@ -72,7 +72,7 @@ The project followed CRISP-DM.
 └── requirements.txt
 ```
 
-My own work is in the notebooks prefixed `sovann_ratana-*`: data preparation, a baseline, Linear Regression, KNN, Extra Trees, LightGBM and the deployed XGBoost model.
+My own work is in the notebooks prefixed `ratana_*`: data preparation, a baseline, Linear Regression, KNN, Extra Trees, LightGBM and the deployed XGBoost model.
 
 ## Getting started
 
