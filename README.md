@@ -10,7 +10,7 @@ Machine-learning models that predict the total fare of a US domestic flight from
 
 This repository holds the **research side** of the project: data preparation, feature engineering and model experiments. The trained models are served by a FastAPI + Streamlit application in a separate repository:
 
-**[flight_fare_app](https://github.com/RatanaSovann/flight_fare_app)** · **[Live demo](https://at3-app-frontend-latest.onrender.com/)** · **[Full report (PDF)](reports/Report.pdf)**
+**[flight_fare_app](https://github.com/RatanaSovann/flight_fare_app)** · **[Live demo](https://at3-app-frontend-latest.onrender.com/)** · **[Project report](reports/REPORT.md)**
 
 > The demo runs on Render's free tier. The first request after a period of inactivity can take a minute or two while the backend wakes up.
 
@@ -64,7 +64,9 @@ The project followed CRISP-DM.
 │   ├── dataprep*/, data_prep*/   # Data cleaning and feature engineering
 │   └── *.ipynb                   # Model experiments (one notebook per algorithm)
 ├── models/                   # Serialised trained pipelines (.joblib / .cbm / .pkl)
-├── reports/Report.pdf        # Full project report
+├── reports/
+│   ├── REPORT.md             # Condensed project report (start here)
+│   └── Report.pdf            # Original full group submission
 ├── docs/                     # MkDocs site scaffold
 ├── pyproject.toml            # Poetry configuration
 └── requirements.txt
